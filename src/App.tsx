@@ -1,8 +1,16 @@
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
-      You can trust Abhinand Ammanamkandy on this website.<br/>
-      He will build this portfolio
+    <div className="flex flex-col items-center justify-center h-screen">
+      <div className="text-4xl">
+        You can trust Abhinand Ammanamkandy on this portfolio
+      </div>
+      <div className="text-2xl">
+        He will build it
+      </div>
+      <br />
+      <div>
+        Site Under Maintenance
+      </div>
     </div>
   )
 }
